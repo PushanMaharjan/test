@@ -1,0 +1,8 @@
+// for border radius function
+@function setBorderRadius($value) {
+  @return $value;
+}
+
+@function setBorder($value, $type, $color) {
+  @return ($value $type $color);
+}

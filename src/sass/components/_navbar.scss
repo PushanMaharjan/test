@@ -1,0 +1,11 @@
+.navbar {
+  height: 100px;
+  @include e(top) {
+    display: block;
+    border-radius: setBorderRadius(10px);
+    display: block;
+    @include m(block) {
+      display: block;
+    }
+  }
+}

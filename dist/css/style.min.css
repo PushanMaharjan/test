@@ -1,0 +1,31 @@
+html {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+img {
+  border-style: none;
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.navbar__top {
+  display: block;
+  border-radius: 10px;
+  display: block;
+}
+
+.navbar__top--block {
+  display: block;
+}
+
+.footer {
+  display: block;
+}

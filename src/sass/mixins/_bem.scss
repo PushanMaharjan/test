@@ -1,0 +1,20 @@
+// For Element i.e.'.photo__image'
+@mixin e($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+// For Modifier i.e. '.photo__image--caption'
+@mixin m($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+// For @at-root function
+@mixin variant($selector) {
+  @at-root #{$selector}#{&} {
+    @content;
+  }
+}
